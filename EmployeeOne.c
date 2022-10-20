@@ -50,7 +50,7 @@ PtrToEmployee searchEmployeeByPhone(PtrToConstEmployee ptr, int tableSize, char 
 
     { 
 
-        if(strcmp(ptr->name,targetPhone) == 0) 
+        if(strcmp(ptr->phone,targetPhone) == 0) 
 
             return (PtrToEmployee) ptr; 
 

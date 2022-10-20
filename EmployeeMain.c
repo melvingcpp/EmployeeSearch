@@ -83,7 +83,7 @@ int main(void){
 
     if (matchPtr != NULL) 
 
-        printf("Employee with salary 8.78 is in record%d\n", matchPtr - EmployeeTable); 
+        printf("Employee with salary 8.78 is in record %d\n", matchPtr - EmployeeTable); 
 
     else 
 
